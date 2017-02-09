@@ -20,6 +20,8 @@
 		3A0619531E4D1428005DE8C8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0619521E4D1428005DE8C8 /* ExtensionDelegate.swift */; };
 		3A0619551E4D1428005DE8C8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0619541E4D1428005DE8C8 /* NotificationController.swift */; };
 		3A0619571E4D1428005DE8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0619561E4D1428005DE8C8 /* Assets.xcassets */; };
+		3A0619681E4D14D6005DE8C8 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0619671E4D14D6005DE8C8 /* Meditation.swift */; };
+		3A0619691E4D14D6005DE8C8 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0619671E4D14D6005DE8C8 /* Meditation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,7 @@
 		3A0619541E4D1428005DE8C8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		3A0619561E4D1428005DE8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0619581E4D1428005DE8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0619671E4D14D6005DE8C8 /* Meditation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,7 @@
 		3A06192A1E4D1427005DE8C8 /* Centering Thoughts */ = {
 			isa = PBXGroup;
 			children = (
+				3A0619661E4D14A4005DE8C8 /* Model */,
 				3A06192B1E4D1427005DE8C8 /* AppDelegate.swift */,
 				3A06192D1E4D1427005DE8C8 /* ViewController.swift */,
 				3A06192F1E4D1427005DE8C8 /* Main.storyboard */,
@@ -165,6 +169,14 @@
 				3A06194F1E4D1428005DE8C8 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A0619661E4D14A4005DE8C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A0619671E4D14D6005DE8C8 /* Meditation.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0619681E4D14D6005DE8C8 /* Meditation.swift in Sources */,
 				3A06192E1E4D1427005DE8C8 /* ViewController.swift in Sources */,
 				3A06192C1E4D1427005DE8C8 /* AppDelegate.swift in Sources */,
 			);
@@ -315,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0619551E4D1428005DE8C8 /* NotificationController.swift in Sources */,
+				3A0619691E4D14D6005DE8C8 /* Meditation.swift in Sources */,
 				3A0619531E4D1428005DE8C8 /* ExtensionDelegate.swift in Sources */,
 				3A0619511E4D1428005DE8C8 /* InterfaceController.swift in Sources */,
 			);
